@@ -3,10 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test</title>
+    <title>My Blog</title>
+    <style>
+      /* Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Georgia", serif;
+        background: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+        padding: 2rem;
+        max-width: 800px;
+        margin: auto;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      header p {
+        color: #666;
+        font-size: 1.1rem;
+      }
+
+      main article {
+        background: white;
+        border-radius: 6px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        transition: transform 0.2s ease;
+      }
+
+      main article:hover {
+        transform: translateY(-3px);
+      }
+
+      article h2 {
+        margin-bottom: 0.5rem;
+        color: #222;
+      }
+
+      article p {
+        color: #555;
+      }
+
+      a {
+        color: #0077cc;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        color: #777;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello World</h1>
-    <p>This is a test...</p>
+    <header>
+      <h1>My Blog</h1>
+      <p>Thoughts, notes, and projects.</p>
+    </header>
+
+    <main>
+      <article>
+        <h2><a href="posts/first-post.html">Hello World</a></h2>
+        <p>Testing...</p>
+      </article>
+
+      <article>
+        <h2><a href="posts/second-post.html">Another Post</a></h2>
+        <p>Here's another example of what a blog post could look like.</p>
+      </article>
+    </main>
+
+    <footer>
+      <p>© 2025 Blog. Built with GitHub Pages.</p>
+    </footer>
   </body>
 </html>
