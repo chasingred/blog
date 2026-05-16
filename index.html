@@ -3,73 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chasing Red</title>
-  <style>
-    body {
-      font-family: Georgia, serif;
-      margin: 0;
-      padding: 2rem 1rem;
-      background: #fff;
-      color: #222;
-    }
-
-    main {
-      max-width: 700px;
-      margin: 0 auto;
-    }
-
-    article {
-      margin-bottom: 1.5rem;
-    }
-
-    article h2 {
-      font-size: 1.3rem;
-      margin: 0 0 0.3rem 0;
-    }
-
-    article h2 a {
-      text-decoration: none;
-      color: #8B0000; /* dark red link color */
-    }
-
-    article h2 a:hover {
-      text-decoration: underline;
-    }
-
-    article p {
-      margin: 0;
-      color: #666;
-      font-size: 0.95rem;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 3rem;
-      font-size: 0.85rem;
-      color: #666;
-    }
-  </style>
+  <title>chasingred</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main>
-    <article>
-      <h2><a href="posts/first-post.html">First Recon Steps</a></h2>
-      <p>Reverse Engineer Basics.</p>
-    </article>
 
-    <article>
-      <h2><a href="posts/sample-exploit.html">Sample Exploit Analysis</a></h2>
-      <p>Breaking down an example vulnerability for learning purposes.</p>
-    </article>
+  <nav>
+    [[<a href="/blog/">Home</a>]]
+    [[<a href="/blog/about.html">About</a>]]
+  </nav>
 
-    <article>
-      <h2><a href="posts/network-scanning.html">Network Scanning Techniques</a></h2>
-      <p>ARM Hacking 101.</p>
-    </article>
-  </main>
+  <h1>chasingred</h1>
+  <p>Notes on reverse engineering, exploitation, and whatever else.</p>
+
+  <hr />
+
+  <ul class="posts">
+    <li>
+      <a href="posts/first-post.html">First Recon Steps</a>
+      <div class="date">Reverse engineer basics</div>
+    </li>
+    <li>
+      <a href="posts/sample-exploit.html">Sample Exploit Analysis</a>
+      <div class="date">Breaking down an example vulnerability for learning purposes</div>
+    </li>
+    <li>
+      <a href="posts/network-scanning.html">Network Scanning Techniques</a>
+      <div class="date">ARM Hacking 101</div>
+    </li>
+  </ul>
 
   <footer>
-    <p>© 2025 Chasing Red</p>
+    <hr />
+    <p>© 2025 chasingred</p>
   </footer>
+
 </body>
 </html>
