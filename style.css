@@ -18,3 +18,12 @@ pre {
 code {
   font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
+a {
+  color: #8b0000;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #ff8a8a;
+  }
+}
